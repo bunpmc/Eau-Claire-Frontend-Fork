@@ -6,6 +6,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { Header } from "./components/header/header";
 import { Footer } from "./components/footer/footer";
 import { Sidebar } from "./components/sidebar/sidebar";
+import { Toast } from "./components/toast/toast";
 
 @NgModule({
     imports: [
@@ -14,12 +15,14 @@ import { Sidebar } from "./components/sidebar/sidebar";
         ReactiveFormsModule,
         Header,
         Footer,
-        Sidebar
+        Sidebar,
+        Toast
     ],
     exports: [
         Header,
         Footer,
         Sidebar,
+        Toast,
         CommonModule,
         FormsModule,
         ReactiveFormsModule
