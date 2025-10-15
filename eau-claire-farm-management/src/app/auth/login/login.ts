@@ -14,6 +14,7 @@ import { error } from 'console';
   styleUrl: './login.css'
 })
 export class Login {
+  title = 'Eau Claire Fish Farm Management System';
   // form: FormGroup;
   // loading = false;
 
